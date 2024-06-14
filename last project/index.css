@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 40px;
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+}
+
+.logo a {
+    font-size: 24px;
+    color: #fff;
+}
+.container{
+    min-height: 100vh;
+}
+.container-header{
+    min-height: 100vh;
+    /* background: url(new-set/astro.jpg); */
+    background: #333;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-info{
+    margin-left: 80px;
+    position: relative;
+    top: 180px;
+}
+.text-h1{
+    font-size: 2.7rem;
+    color: #fff;
+}
+.h1-jevis{
+    color: #fff;
+    font-size: 2.2rem;
+}
+.up{
+    /* margin-left: 30px; */
+    font-size: 2.9rem;
+    letter-spacing: 4px;
+}
+.about{
+    margin-top: 50px;
+    min-height: 90vh;
+}
+.about-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.long-text{
+    width: 400px;
+}
+.about-img{
+    width: 400px;
+    height: 400px;
+    background: url(new-set/astro.jpg);
+}
